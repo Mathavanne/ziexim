@@ -4,12 +4,43 @@ import womenjacket from "../assets/images/Jacket.png";
 import Pant from "../assets/images/Pant.png";
 import Kids from "../assets/images/kids.png";
 export const subCategoryMap = {
+  "Fabrics": ["Nylon", "Rexin", "Polyester", "Canvas"],
   "Garments": ["Men's clothing", "WoMen's clothing", "Kids"],
    "Leather products": ["Accessories", "Footwear", "Fags"],
    "Agriculture Products": ["Grains", "Fruits", "Beverages", "Nuts"]
  };
 
 export const dummyData = {
+  "Fabrics": [
+    {
+      id: 1,
+      title: "Nylon Fabric Roll",
+      description: "High-quality nylon fabric for various uses.",
+      category: "Nylon",
+      image: "https://via.placeholder.com/150"
+    },
+    {
+      id: 2,
+      title: "Rexin Upholstery",
+      description: "Durable rexin material for upholstery.",
+      category: "Rexin",
+      image: "https://via.placeholder.com/150"
+    },
+    {
+      id: 3,
+      title: "Polyester Blend",
+      description: "Soft polyester blend fabric for clothing.",
+      category: "Polyester",
+      image: "https://via.placeholder.com/150"
+    },
+    {
+      id: 4,
+      title: "Canvas Fabric",
+      description: "Heavy-duty canvas fabric for outdoor use.",
+      category: "Canvas",
+      image: "https://via.placeholder.com/150"
+    }
+  ],
   "Garments": [
     {
       id: 1,
